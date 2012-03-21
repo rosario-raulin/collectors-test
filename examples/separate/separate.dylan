@@ -8,7 +8,7 @@ define function separate (collection, predicate) => (true-part, false-part)
          end method, collection);
       
       values(collected(true-part), collected(false-part));
-  end collecting
+  end collecting;
 end function separate;
 
 define function main (name :: <string>, arguments :: <vector>)
